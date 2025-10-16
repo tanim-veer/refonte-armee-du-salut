@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7fd27b35-f801-474c-93df-8f3424cb0797" name="Changes" comment="mes 2 pages">
+      <change afterPath="$PROJECT_DIR$/.idea/SAE S3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page Devenir Salarié/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page Devenir Salarié/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/age.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/alimentaire.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/animation.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/emploi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/epanouie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/inconditionnel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/insta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/intro.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/participation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rejoindres.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scolaire.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/soin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="33kLFUuxyvzaDAdmlJ7vHz9DG5W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/page devenir benevole" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fd27b35-f801-474c-93df-8f3424cb0797" name="Changes" comment="" />
+      <created>1759856021328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759856021328</updated>
+      <workItem from="1759856022410" duration="14652000" />
+      <workItem from="1760031863380" duration="15094000" />
+      <workItem from="1760440059653" duration="683000" />
+      <workItem from="1760531834559" duration="5826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mes 2 pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="mes 2 pages" />
+  </component>
+</project>
