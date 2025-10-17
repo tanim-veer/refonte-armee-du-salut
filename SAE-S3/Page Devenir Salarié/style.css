@@ -51,16 +51,6 @@ body {
     font-size: clamp(2rem, 5vw, 2.5rem);
 }
 
-.action-link {
-    color: var(--primary-red);
-    font-weight: 500;
-}
-
-.action-link:hover {
-    color: var(--dark-red);
-    text-decoration: underline;
-}
-
 footer {
     background-color: var(--primary-red);
     color: #fff;
@@ -96,82 +86,43 @@ footer a:hover {
     object-fit: cover;
 }
 
-.accordion-body img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 0.375rem; /* Matches Bootstrap's .rounded */
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Matches Bootstrap's .shadow-sm */
-}
-
 .accordion-button:not(.collapsed) {
     background-color: var(--bg-light);
     color: var(--primary-red);
 }
 
-.list-group-item {
-    color: var(--text-dark);
+#temoignages {
+    background-color: var(--bg-light);
 }
 
-.list-group-item-header {
-    background-color: var(--primary-red);
-    color: #fff;
-    font-weight: 600;
-    border-color: var(--primary-red);
-}
-
-.table {
-    font-size: 0.9rem;
-}
-
-.table thead th {
+#temoignages .text-primary-red {
     color: var(--primary-red);
-    font-weight: 600;
-    text-align: left;
 }
 
-.blockquote {
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
+#temoignages .carousel-control-prev-icon,
+#temoignages .carousel-control-next-icon {
+    background-color: var(--primary-red);
     border-radius: 50%;
-}
-
-#diversite .mx-auto {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    width: 50px;
+    height: 50px;
 }
 
 #diversite .table {
-    margin: 0 auto !important;
-    width: 100% !important;
-    max-width: 800px !important;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
 }
 
 #diversite .table thead th,
 #diversite .table tbody td {
-    text-align: left !important;
+    text-align: left;
 }
 
-#diversite .text-primary-red {
-    color: var(--primary-red);
-}
-
-/* MODIFICATION TÉMOIGNAGES : FOND BLANC + CITATION ROUGE + NOM NOIR */
-#temoignages .blockquote {
-    background-color: #ffffff !important; /* Fond blanc pur */
-    font-size: 1.1rem;
-    font-style: italic;
-}
-
-#temoignages .blockquote p {
-    color: var(--primary-red) !important; /* Citation en rouge */
-}
-
-#temoignages .blockquote-footer {
-    color: #000000 !important; /* Nom en noir */
+.list-group-item-primary {
+    background-color: var(--primary-red);
+    color: #fff;
+    font-weight: 600;
+    border-color: var(--primary-red);
 }
 
 @media (max-width: 980px) {
@@ -199,10 +150,6 @@ footer a:hover {
         width: fit-content;
     }
 
-    .navbar-nav .nav-link {
-        text-align: center;
-    }
-
     .navbar .btn-primary-red {
         margin: 1rem 0;
         width: fit-content;
@@ -214,6 +161,7 @@ footer a:hover {
     .navbar-collapse {
         min-height: 60vh;
     }
+
     .section {
         padding: 2rem 0;
     }
@@ -227,7 +175,6 @@ footer a:hover {
     }
 
     footer .h5,
-    footer p:not(.text-center),
     footer ul {
         text-align: center;
     }
@@ -236,14 +183,9 @@ footer a:hover {
         justify-content: center;
     }
 
-    .accordion-body img {
-        margin-bottom: 1rem;
-        width: 100%;
-    }
-
     #diversite .table {
         font-size: 0.8rem;
-        max-width: 100% !important;
-        margin: 0.5rem auto !important;
+        max-width: 100%;
+        margin: 0.5rem auto;
     }
 }
