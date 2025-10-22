@@ -1,58 +1,90 @@
+/* VARIABLES GLOBALES DU SITE */
 :root {
-    --primary-red: #E31E24;
-    --dark-red: #B71C1C;
-    --text-dark: #2D2D2D;
-    --text-light: #6B7280;
-    --bg-light: #F9FAFB;
+    --rouge: #E31E24;        /* couleur principale rouge */
+    --rouge-fonce: #B71C1C;  /* rouge foncé pour hover/accent */
+    --texte-fonce: #2D2D2D;  /* couleur texte principale */
+    --texte-clair: #6B7280;  /* couleur texte secondaire */
+    --fond-clair: #F9FAFB;   /* couleur de fond claire */
 }
 
+/* STYLE GLOBAL DU BODY */
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.7;
-    color: var(--text-dark);
-    background-color: var(--bg-light);
+    color: var(--texte-fonce);
+    background-color: var(--fond-clair);
     margin: 0;
 }
 
+/* NAVBAR */
 .navbar {
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* petite ombre */
 }
 
 .navbar-nav .nav-link {
-    color: var(--text-dark);
+    color: var(--texte-fonce);
     font-weight: 500;
     padding: 0.5rem 1rem;
 }
 
 .navbar-nav .nav-link:hover {
-    color: var(--primary-red);
+    color: var(--rouge); /* hover en rouge */
 }
 
+/* BOUTONS PRINCIPAUX */
 .btn-primary-red {
-    background-color: var(--primary-red);
-    border-color: var(--primary-red);
+    background-color: var(--rouge);
+    border-color: var(--rouge);
     color: #fff;
     padding: 0.75rem 1.5rem;
 }
 
 .btn-primary-red:hover {
-    background-color: var(--dark-red);
-    border-color: var(--dark-red);
+    background-color: var(--rouge-fonce);
+    border-color: var(--rouge-fonce);
 }
 
+/* SECTIONS ET TITRES */
 .section {
     padding: 3rem 0;
 }
 
 .section-title {
-    color: var(--primary-red);
+    color: var(--rouge);
     font-weight: 700;
-    font-size: clamp(2rem, 5vw, 2.5rem);
+    font-size: clamp(2rem, 5vw, 2.5rem); /* responsive */
 }
 
+.flex-metiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.metier-card {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    flex: 1 1 280px;
+    max-width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.metier-card .card-body {
+    flex-grow: 1;
+}
+
+
+/* FOOTER */
 footer {
-    background-color: var(--primary-red);
+    background-color: var(--rouge);
     color: #fff;
     padding: 2rem 0;
 }
@@ -66,6 +98,7 @@ footer a:hover {
     opacity: 0.7;
 }
 
+/* LIENS RESEAUX SOCIAUX */
 .social-link {
     width: 40px;
     height: 40px;
@@ -80,33 +113,37 @@ footer a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
+/* IMAGES DANS LES SECTIONS */
 .section:not(#valeurs) .col-md-6 img {
     max-height: 250px;
     width: 100%;
     object-fit: cover;
 }
 
+/* ACCORDIONS */
 .accordion-button:not(.collapsed) {
-    background-color: var(--bg-light);
-    color: var(--primary-red);
+    background-color: var(--fond-clair);
+    color: var(--rouge);
 }
 
+/* TEMOIGNAGES */
 #temoignages {
-    background-color: var(--bg-light);
+    background-color: var(--fond-clair);
 }
 
 #temoignages .text-primary-red {
-    color: var(--primary-red);
+    color: var(--rouge);
 }
 
 #temoignages .carousel-control-prev-icon,
 #temoignages .carousel-control-next-icon {
-    background-color: var(--primary-red);
+    background-color: var(--rouge);
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
 
+/* TABLEAU DIVERSITE */
 #diversite .table {
     margin: 0 auto;
     width: 100%;
@@ -118,13 +155,15 @@ footer a:hover {
     text-align: left;
 }
 
+/* LISTES */
 .list-group-item-primary {
-    background-color: var(--primary-red);
+    background-color: var(--rouge);
     color: #fff;
     font-weight: 600;
-    border-color: var(--primary-red);
+    border-color: var(--rouge);
 }
 
+/* MEDIA QUERIES - TABLETTE ET MOBILE */
 @media (max-width: 980px) {
     .navbar-collapse {
         min-height: 30vh;

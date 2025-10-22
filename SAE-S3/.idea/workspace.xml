@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="Page tanim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Salarié/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Salarié/style.css" afterDir="false" />
     </list>
@@ -17,18 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tanim-veer"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tanim-veer&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tanim-veer/SAE-S3.git",
-    "accountId": "651384df-ed6e-45ec-8df0-7425279ec678"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tanim-veer/SAE-S3.git&quot;,
+    &quot;accountId&quot;: &quot;651384df-ed6e-45ec-8df0-7425279ec678&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -66,7 +68,10 @@
       <option name="presentableId" value="Default" />
       <updated>1760610645816</updated>
       <workItem from="1760610647021" duration="264000" />
-      <workItem from="1760690945208" duration="3156000" />
+      <workItem from="1760690945208" duration="3178000" />
+      <workItem from="1760703956347" duration="516000" />
+      <workItem from="1760704848527" duration="117000" />
+      <workItem from="1760705556776" duration="8527000" />
     </task>
     <task id="LOCAL-00001" summary="Page tanim">
       <option name="closed" value="true" />
@@ -84,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760694210679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Page tanim">
+      <option name="closed" value="true" />
+      <created>1760694337698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760694337698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
