@@ -5,64 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fd27b35-f801-474c-93df-8f3424cb0797" name="Changes" comment="mes 2 pages">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE-S3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/age.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/alimentaire.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/animation.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/emploi.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/epanouie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/inconditionnel.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/insta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/intro.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/linkedin.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/participation.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rejoindres.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/scolaire.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/soin.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "bvantrikot"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tanim-veer/SAE-S3.git",
+    "accountId": "8aea6db1-6398-4f4e-a405-58af1fe84976"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="33kLFUuxyvzaDAdmlJ7vHz9DG5W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/page devenir benevole" />
@@ -71,7 +71,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -87,6 +88,7 @@
       <workItem from="1760031863380" duration="15094000" />
       <workItem from="1760440059653" duration="683000" />
       <workItem from="1760531834559" duration="6204000" />
+      <workItem from="1761226868195" duration="4412000" />
     </task>
     <task id="LOCAL-00001" summary="mes 2 pages">
       <option name="closed" value="true" />
@@ -101,6 +103,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mes 2 pages" />
