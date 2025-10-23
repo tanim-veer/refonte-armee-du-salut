@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="Page tanim">
+    <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="maj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/style.css" afterDir="false" />
@@ -71,7 +71,8 @@
       <workItem from="1760690945208" duration="3178000" />
       <workItem from="1760703956347" duration="516000" />
       <workItem from="1760704848527" duration="117000" />
-      <workItem from="1760705556776" duration="8527000" />
+      <workItem from="1760705556776" duration="11416000" />
+      <workItem from="1761227320455" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Page tanim">
       <option name="closed" value="true" />
@@ -97,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760694337698</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maj">
+      <option name="closed" value="true" />
+      <created>1761128858129</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761128858129</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Page tanim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page tanim" />
+    <MESSAGE value="maj" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj" />
   </component>
 </project>

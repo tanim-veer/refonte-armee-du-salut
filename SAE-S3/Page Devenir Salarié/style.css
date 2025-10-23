@@ -7,32 +7,34 @@
     --fond-clair: #F9FAFB;   /* couleur de fond claire */
 }
 
-/* STYLE GLOBAL DU BODY */
+/* Style de base pour tout le corps */
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.7;
-    color: var(--texte-fonce);
-    background-color: var(--fond-clair);
-    margin: 0;
+    font-family: 'Inter', sans-serif;  /* police sympa et lisible */
+    line-height: 1.7;                  /* espace entre les lignes */
+    color: var(--texte-fonce);         /* couleur texte principale */
+    background-color: var(--fond-clair); /* fond clair agréable */
+    margin: 0;                        /* pas de marge par défaut */
 }
 
-/* NAVBAR */
+/* Style pour la barre de navigation */
 .navbar {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* petite ombre */
+    background-color: #fff;                  /* fond blanc */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* ombre légère */
 }
 
+/* Liens dans la navbar */
 .navbar-nav .nav-link {
     color: var(--texte-fonce);
     font-weight: 500;
     padding: 0.5rem 1rem;
 }
 
+/* Effet au survol des liens navbar */
 .navbar-nav .nav-link:hover {
-    color: var(--rouge); /* hover en rouge */
+    color: var(--rouge);
 }
 
-/* BOUTONS PRINCIPAUX */
+/* Boutons rouges */
 .btn-primary-red {
     background-color: var(--rouge);
     border-color: var(--rouge);
@@ -40,6 +42,7 @@ body {
     padding: 0.75rem 1.5rem;
 }
 
+/* Hover sur les boutons */
 .btn-primary-red:hover {
     background-color: var(--rouge-fonce);
     border-color: var(--rouge-fonce);
@@ -113,7 +116,7 @@ footer a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
-/* IMAGES DANS LES SECTIONS */
+/* Image spécifique dans une colonne */
 .section:not(#valeurs) .col-md-6 img {
     max-height: 250px;
     width: 100%;
@@ -163,8 +166,8 @@ footer a:hover {
     border-color: var(--rouge);
 }
 
-/* MEDIA QUERIES - TABLETTE ET MOBILE */
-@media (max-width: 980px) {
+/* Responsive */
+`@media (max-width: 980px) {
     .navbar-collapse {
         min-height: 30vh;
         display: flex;
