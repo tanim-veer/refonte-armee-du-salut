@@ -6,26 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="maj + ajout page titouan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nous Contacter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Actions Sociales/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Actions Sociales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Nos Contacts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Nos Contacts/style1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page d'Acceuil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page d'Acceuil/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/NC9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/cs1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/cs2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/cs3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/fille.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/hand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_titouan/homme.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +89,7 @@
       <workItem from="1761666291035" duration="205000" />
       <workItem from="1761669687786" duration="111000" />
       <workItem from="1761669804018" duration="360000" />
-      <workItem from="1762521400989" duration="1913000" />
+      <workItem from="1762521400989" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="Page tanim">
       <option name="closed" value="true" />
@@ -181,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762522053824</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="maj + ajout page titouan">
+      <option name="closed" value="true" />
+      <created>1762524692196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762524692196</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
