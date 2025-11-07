@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="maj + ajout page titouan">
+    <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="maj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Nos Contacts/style1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Actions Sociales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Actions Sociales/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Actions Sociales/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Salarié/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Nos Contacts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/style1.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Page d'Acceuil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page d'Acceuil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,9 @@
     &quot;accountId&quot;: &quot;651384df-ed6e-45ec-8df0-7425279ec678&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -89,7 +98,8 @@
       <workItem from="1761666291035" duration="205000" />
       <workItem from="1761669687786" duration="111000" />
       <workItem from="1761669804018" duration="360000" />
-      <workItem from="1762521400989" duration="2177000" />
+      <workItem from="1762521400989" duration="2936000" />
+      <workItem from="1762525742120" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="Page tanim">
       <option name="closed" value="true" />
@@ -171,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762524692196</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="maj">
+      <option name="closed" value="true" />
+      <created>1762524930264</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762524930264</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,8 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Page tanim" />
-    <MESSAGE value="maj" />
     <MESSAGE value="maj + ajout page titouan" />
-    <option name="LAST_COMMIT_MESSAGE" value="maj + ajout page titouan" />
+    <MESSAGE value="maj" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj" />
   </component>
 </project>
