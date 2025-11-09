@@ -6,89 +6,107 @@
   <title>Actualités – Armée du Salut</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-  <!-- En-tête -->
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="nav-logo">
+        <img src="/img/logo.png" alt="Armée du Salut">
+      </a>
+      <ul class="nav-menu">
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../qui-sommes-nous/index.html">Qui sommes-nous</a></li>
+        <li><a href="../actions/index.html">Nos actions</a></li>
+        <li><a class="active" href="#">Actualités</a></li>
+        <li><a href="../contact/index.html">Contact</a></li>
+      </ul>
+      <a href="https://donner.armeedusalut.fr/don-fondation/" class="btn btn-primary-red">Faire un don</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
   <header class="page-header-banner text-center">
     <div class="container">
       <h1>Actualités</h1>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb justify-content-center">
-          <li class="breadcrumb-item"><a href="../index.html">Accueil</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Actualités</li>
-        </ol>
-      </nav>
+      <p>Suivez nos initiatives, nos plaidoyers et nos actions sociales partout en France.</p>
     </div>
   </header>
 
-  <!-- Section Articles récents -->
+  <!-- ARTICLES RÉCENTS -->
   <section class="section">
-    <div class="container text-center">
-      <h2 class="section-title">Nos dernières actualités</h2>
+    <div class="container">
+      <h2 class="section-title text-center">Nos dernières actualités</h2>
       <div class="missions-grid">
+
         <div class="card">
-          <img src="../img/actu1.jpg" class="card-img-top" alt="Moi demain">
+          <img src="/img/actu1.jpg" alt="Moi demain">
           <div class="card-body">
             <h3 class="card-title">Moi demain : toutes les valeurs de la Fondation en un seul projet</h3>
-            <p>Exposition de portraits photo-témoignages à la Résidence Catherine Booth.</p>
-            <a href="#" class="action-link">Lire l’article</a>
+            <p>Une exposition photo-témoignage à la Résidence Catherine Booth met à l’honneur la fraternité et l’espérance.</p>
+            <a href="https://www.armeedusalut.fr/actualites/moi-demain-toutes-les-valeurs-de-la-fondation-en-un-seul-projet" class="action-link">Lire l’article</a>
           </div>
         </div>
+
         <div class="card">
-          <img src="../img/actu2.jpg" class="card-img-top" alt="Aide alimentaire">
+          <img src="/img/actu2.jpg" alt="Aide alimentaire">
           <div class="card-body">
             <h3 class="card-title">Aide alimentaire : la fin des solutions uniques</h3>
-            <p>Focus sur les initiatives à Lyon pour adapter les repas aux situations des bénéficiaires.</p>
-            <a href="#" class="action-link">Lire l’article</a>
+            <p>À Lyon, les équipes réinventent l’aide alimentaire pour mieux répondre aux besoins réels des familles.</p>
+            <a href="https://www.armeedusalut.fr/actualites/aide-alimentaire-la-fin-des-solutions-uniques" class="action-link">Lire l’article</a>
           </div>
         </div>
+
         <div class="card">
-          <img src="../img/actu3.jpg" class="card-img-top" alt="Bonne Adresse Marseille">
+          <img src="/img/actu3.jpg" alt="Bonne Adresse Marseille">
           <div class="card-body">
             <h3 class="card-title">À Marseille, la Bonne Adresse : un dispositif innovant pour mieux manger</h3>
-            <p>Accès à des cuisines collectives et circuits courts, accompagnement des familles.</p>
-            <a href="#" class="action-link">Lire l’article</a>
+            <p>Une initiative qui donne accès à des repas équilibrés grâce à des cuisines collectives et circuits courts.</p>
+            <a href="https://www.armeedusalut.fr/actualites/marseille-bonne-adresse-dispositif-innovant-pour-mieux-manger" class="action-link">Lire l’article</a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Section Communiqués -->
+  <!-- COMMUNIQUÉS -->
   <section class="section bg-light">
     <div class="container">
       <h2 class="section-title text-center">Communiqués de presse</h2>
       <ul class="list-group">
-        <li class="list-group-item"><a href="#">Été et précarité : l’Armée du Salut poursuit ses dispositifs à Paris</a></li>
-        <li class="list-group-item"><a href="#">Passerelle Plus : un an d’expérimentation à Montreuil</a></li>
-        <li class="list-group-item"><a href="#">Le Service Civique de nouveau menacé !</a></li>
+        <li><a href="https://www.armeedusalut.fr/actualites/ete-et-precarite-larmee-du-salut-poursuit-ses-dispositifs-paris-et-recherche-des-benevoles">Été et précarité : l’Armée du Salut poursuit ses dispositifs à Paris et recherche des bénévoles</a></li>
+        <li><a href="https://www.armeedusalut.fr/actualites/passerelle-plus-un-an-dexperimentations-montreuil">Passerelle Plus : un an d’expérimentation à Montreuil</a></li>
+        <li><a href="https://www.armeedusalut.fr/actualites/service-civique-de-nouveau-menace">Le Service Civique de nouveau menacé !</a></li>
       </ul>
     </div>
   </section>
 
-  <!-- Section Plaidoyer -->
+  <!-- PLAIDOYERS -->
   <section class="section">
     <div class="container text-center">
-      <h2 class="section-title">Plaidoyer</h2>
+      <h2 class="section-title">Nos plaidoyers</h2>
       <div class="missions-grid">
         <div class="card">
           <div class="card-body">
-            <h3 class="card-title">Mobilisation pour le droit à l’alimentation</h3>
-            <p>Appel à une mobilisation politique pour le droit à l’alimentation.</p>
-            <a href="#" class="action-link">Lire le plaidoyer</a>
+            <h3 class="card-title">Appel à une mobilisation politique pour le droit à l’alimentation</h3>
+            <p>L’Armée du Salut appelle à une politique nationale garantissant un accès digne à l’alimentation pour tous.</p>
+            <a href="https://www.armeedusalut.fr/actualites/appel-a-une-mobilisation-politique-pour-le-droit-a-lalimentation" class="action-link">Lire le plaidoyer</a>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h3 class="card-title">Lutter contre la banalisation de la pauvreté</h3>
-            <p>Ne laissons pas la pauvreté devenir quelque chose d’acceptable.</p>
-            <a href="#" class="action-link">Lire le plaidoyer</a>
+            <h3 class="card-title">Ne laissons pas la pauvreté devenir acceptable</h3>
+            <p>Face à l’explosion de la précarité, la Fondation appelle à refuser la banalisation de l’exclusion sociale.</p>
+            <a href="https://www.armeedusalut.fr/actualites/ne-laissons-pas-la-pauvrete-devenir-acceptable" class="action-link">Lire le plaidoyer</a>
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h3 class="card-title">Soutien au monde associatif</h3>
-            <p>Madame la Première ministre, le milieu associatif se meurt !</p>
-            <a href="#" class="action-link">Lire le plaidoyer</a>
+            <h3 class="card-title">Madame la Première ministre, le milieu associatif se meurt</h3>
+            <p>L’Armée du Salut s’engage avec d’autres associations pour défendre la survie du secteur social.</p>
+            <a href="https://www.armeedusalut.fr/actualites/madame-la-premiere-ministre-le-milieu-associatif-se-meurt" class="action-link">Lire le plaidoyer</a>
           </div>
         </div>
       </div>
@@ -96,15 +114,39 @@
   </section>
 
   <!-- CTA -->
-  <section class="section text-center bg-light">
+  <section class="section bg-light text-center">
     <div class="container">
       <h2 class="section-title">Agissez avec nous</h2>
-      <p>Participez à notre mission en devenant bénévole ou en soutenant nos actions.</p>
-      <div class="d-flex gap-3 justify-content-center mt-3">
+      <p>Faites partie du changement. Votre soutien permet d’agir au quotidien pour les plus fragiles.</p>
+      <div class="cta-buttons">
         <a href="../benevolat/index.html" class="btn btn-primary-red">Devenir bénévole</a>
-        <a href="../don/index.html" class="btn btn-outline-secondary">Faire un don</a>
+        <a href="https://donner.armeedusalut.fr/don-fondation/" class="btn btn-outline-secondary">Faire un don</a>
       </div>
     </div>
   </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-col">
+        <img src="/img/logo.png" alt="Armée du Salut" class="footer-logo">
+        <p>Ensemble, transformons des vies depuis 1881.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Liens utiles</h3>
+        <a href="../qui-sommes-nous/index.html">Qui sommes-nous</a>
+        <a href="../benevolat/index.html">Devenir bénévole</a>
+        <a href="../travailler/index.html">Travailler avec nous</a>
+        <a href="../contact/index.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <p>60 rue des Frères Flavien<br>75976 Paris Cedex 20</p>
+        <a href="mailto:contact@armeedusalut.fr">contact@armeedusalut.fr</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 Armée du Salut – Tous droits réservés</div>
+  </footer>
+
 </body>
 </html>
