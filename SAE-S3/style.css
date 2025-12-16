@@ -39,7 +39,7 @@ body {
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url("../img/burger.svg");
+    background-image: url("img/burger.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -542,10 +542,12 @@ footer {
     margin-bottom: 1rem;
 }
 
-.section ul {
-    list-style-type: disc;
-    padding-left: 20px;
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
+
 .section ul li {
     margin-bottom: 0.5rem;
 }
@@ -676,10 +678,6 @@ footer {
     margin-bottom: 1rem;
 }
 
-.section ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
 .section ul li {
     margin-bottom: 0.5rem;
 }
@@ -845,4 +843,50 @@ footer {
 }
 #heroCarousel .carousel-item {
     transition: transform 1.2s ease-in-out;
+}
+
+/* Lien "Lire l’article" */
+.action-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #B71C1C; /* rouge Armée du Salut */
+    text-decoration: none;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+/* Soulignement discret animé */
+.action-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #B71C1C;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+}
+
+.action-link:hover {
+    color: #8E1616;
+}
+
+.action-link:hover::after {
+    transform: scaleX(1);
+}
+
+div.carte {
+    fill: #cccccc;
+    stroke: #ffffff;
+    stroke-width: 0.5px;
+    transition: fill 0.2s ease-in-out;
+}
+
+div.carte svg .region:hover path {
+    fill: #E31E24;
+    cursor: pointer;
 }

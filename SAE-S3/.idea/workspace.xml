@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d53ad03-5b3f-451b-9f83-5ce6c77e8737" name="Changes" comment="maj">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Actions Sociales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Actions Sociales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Actions Sociales/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Actualité/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Actualité/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Bénévole/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Devenir Salarié/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Devenir Salarié/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page Nos Contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Nos Contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Nos Contacts/style1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Qui Somme Nous/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Page d'Acceuil/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page d'Acceuil/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acceuil_jeunesse.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +101,12 @@
       <workItem from="1761669687786" duration="111000" />
       <workItem from="1761669804018" duration="360000" />
       <workItem from="1762521400989" duration="2936000" />
-      <workItem from="1762525742120" duration="1730000" />
+      <workItem from="1762525742120" duration="2706000" />
+      <workItem from="1762532827002" duration="1384000" />
+      <workItem from="1762692043485" duration="180000" />
+      <workItem from="1762699519187" duration="930000" />
+      <workItem from="1765725673324" duration="387000" />
+      <workItem from="1765911600214" duration="101000" />
     </task>
     <task id="LOCAL-00001" summary="Page tanim">
       <option name="closed" value="true" />
@@ -189,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762524930264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="maj">
+      <option name="closed" value="true" />
+      <created>1762529138876</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762529138876</updated>
+    </task>
+    <task id="LOCAL-00013" summary="maj">
+      <option name="closed" value="true" />
+      <created>1762529254948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762529254948</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
