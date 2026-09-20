@@ -21,8 +21,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['fichier'])) {
     $nomOrigine = $_FILES['fichier']['name'];
     $tmpName = $_FILES['fichier']['tmp_name'];
 
-    if ($_FILES['fichier']['size'] > 0 && $_FILES['fichier']['size'] < 5000000) {
-        $nouveauNom = "doc_" . time() . "." . pathinfo($nomOrigine, PATHINFO_EXTENSION);
+    $extension = strtolower(pathinfo($nomOrigine, PATHINFO_EXTENSION));
+    $extensionsAutorisees = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'pdf'];
+
+    if (!in_array($extension, $extensionsAutorisees, true)) {
+        $message = "<div class='alert alert-danger'>Type de fichier non autorisé (jpg, png, gif, webp, pdf).</div>";
+    } elseif ($_FILES['fichier']['size'] > 0 && $_FILES['fichier']['size'] < 5000000) {
+        $nouveauNom = "doc_" . time() . "_" . bin2hex(random_bytes(4)) . "." . $extension;
         if (move_uploaded_file($tmpName, "uploads/" . $nouveauNom)) {
             $sql = "INSERT INTO media (nom_fichier, titre, type) VALUES (?, ?, ?)";
             $pdo->prepare($sql)->execute([$nouveauNom, $titre, $_FILES['fichier']['type']]);
@@ -82,14 +87,14 @@ $medias = $pdo->query("SELECT * FROM media ORDER BY date_ajout DESC")->fetchAll(
                     <div class="card-admin p-3 h-100 text-center position-relative">
                         <div class="mb-3">
                             <?php if (strpos($m['type'], 'image') !== false): ?>
-                                <img src="uploads/<?= $m['nom_fichier'] ?>" class="img-fluid" style="max-height: 100px;">
+                                <img src="uploads/<?= htmlspecialchars($m["nom_fichier"]) ?>" class="img-fluid" style="max-height: 100px;">
                             <?php else: ?>
                                 <i class="fas fa-file-alt fa-3x text-secondary"></i>
                             <?php endif; ?>
                         </div>
                         <h6 class="text-truncate"><?= htmlspecialchars($m['titre']) ?></h6>
                         <div class="mt-3">
-                            <a href="uploads/<?= $m['nom_fichier'] ?>" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fas fa-eye"></i></a>
+                            <a href="uploads/<?= htmlspecialchars($m["nom_fichier"]) ?>" target="_blank" class="btn btn-sm btn-outline-primary"><i class="fas fa-eye"></i></a>
                             <a href="documents.php?supprimer=<?= $m['id_media'] ?>" onclick="return confirm('Supprimer ?')" class="btn btn-sm btn-outline-danger"><i class="fas fa-trash"></i></a>
                         </div>
                     </div>

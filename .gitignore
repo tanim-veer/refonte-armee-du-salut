@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+node_modules/
+SAE-S3/config/db.local.php
+SAE-S3/admin/uploads/*
+!SAE-S3/admin/uploads/.htaccess

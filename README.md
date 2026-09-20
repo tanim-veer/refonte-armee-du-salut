@@ -1,86 +1,76 @@
-# Refonte du Site de l'Armée du Salut 🤝
+# Refonte du site de l'Armée du Salut
 
-![Statut du projet](https://img.shields.io/badge/Statut-Terminé-brightgreen)
-![Langage](https://img.shields.io/badge/Langages-PHP%20%7C%20HTML%20%7C%20CSS%20%7C%20JS-blue)
+![PHP](https://img.shields.io/badge/PHP-8-777BB4) ![MySQL](https://img.shields.io/badge/MySQL-MariaDB-003545) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3)
 
-Une proposition de refonte moderne et ergonomique du site de l'Armée du Salut. Ce projet collaboratif vise à améliorer l'expérience utilisateur (UX), l'interface (UI) et la structure technique tout en respectant l'identité visuelle de l'organisation.
+> **Projet scolaire (SAE, BUT Informatique)** : maquette non officielle, sans lien avec l'Armée du Salut. Les données présentes dans la base sont fictives.
 
----
+Proposition de refonte du site de l'Armée du Salut : nouvelle interface, pages dynamiques en PHP et back-office d'administration relié à une base MySQL.
 
-## 📋 Table des Matières
-- [Aperçu](#-aperçu)
-- [Objectifs du projet](#-objectifs-du-projet)
-- [Technologies utilisées](#-technologies-utilisées)
-- [Installation et Configuration](#-installation-et-configuration)
-- [Fonctionnalités Clés](#-fonctionnalités-clés)
-- [L'Équipe](#-léquipe)
+**Démo en ligne :** _lien à ajouter_
 
----
+## Fonctionnalités
 
-## 🔭 Aperçu
+**Site public**
+- Pages : accueil, qui sommes-nous, actions sociales, actualités, contact, devenir salarié, devenir bénévole
+- Formulaire « Devenir bénévole » enregistré en base de données
+- Design responsive (Bootstrap), navigation avec appel au don visible
 
-Ce projet est une maquette fonctionnelle explorant de nouvelles pistes graphiques et techniques pour moderniser l'image digitale de l'association.
+**Back-office (`/SAE-S3/admin`)**
+- Connexion sécurisée (sessions PHP, mots de passe hachés avec `password_hash`)
+- Tableau de bord
+- Gestion des bénévoles (ajout, recherche, filtre par ville, suppression)
+- Gestion des missions et de leurs participants
+- Gestion des partenaires
+- Espace documents (envoi de fichiers avec liste blanche d'extensions)
 
----
+## Stack
 
-## 🎯 Objectifs du projet
+PHP · MySQL / MariaDB (PDO, requêtes préparées) · HTML5 · CSS3 · JavaScript · Bootstrap
 
-* **Modernisation de l'UI :** Rafraîchir le design pour le rendre plus actuel.
-* **Architecture modulaire :** Utilisation de PHP pour structurer le code (includes, gestion dynamique).
-* **Responsive Design :** Compatibilité totale mobile, tablette et desktop.
-* **Accessibilité :** Rendre le contenu lisible et accessible à tous.
+## Installation en local
 
----
+1. Installer un serveur local (XAMPP, WAMP ou Laragon) et lancer Apache et MySQL.
+2. Cloner le dépôt dans le dossier racine du serveur (`htdocs` ou `www`) :
+   ```bash
+   git clone https://github.com/tanim-veer/refonte-armee-du-salut.git
+   ```
+3. Créer la base et importer le fichier SQL :
+   ```sql
+   CREATE DATABASE armee_du_salut CHARACTER SET utf8mb4;
+   ```
+   puis importer `SAE-S3/database/armee_du_salut.sql` (phpMyAdmin > Importer).
+4. Ouvrir `http://localhost/refonte-armee-du-salut/SAE-S3/Page%20d'Acceuil/index.html`.
+5. Back-office : `http://localhost/refonte-armee-du-salut/SAE-S3/admin/` (identifiant `admin`, mot de passe à définir ci-dessous).
 
-## 🛠 Technologies utilisées
+### Mot de passe administrateur
 
-* **PHP** - Gestion côté serveur et modularisation des pages.
-* **HTML5** - Structure sémantique.
-* **CSS3** - Mise en page (Flexbox/Grid) et animations.
-* **JavaScript** - Interactivité côté client.
-* **MySQL** - Gestion de la base de données.
-* **Bootstrap** - Framework pour le design responsive et l'intégration rapide.
+Le mot de passe n'est pas publié dans le dépôt. Pour en définir un, générer un hash en PHP :
 
----
+```bash
+php -r "echo password_hash('votre_mot_de_passe', PASSWORD_DEFAULT);"
+```
 
-## 🚀 Installation et Configuration
+puis mettre à jour la table :
 
-Puisque ce projet utilise **PHP**, vous aurez besoin d'un environnement de serveur local pour le faire tourner (comme XAMPP, WAMP, MAMP ou Laragon).
+```sql
+UPDATE admin_users SET password = '<hash>' WHERE username = 'admin';
+```
 
-1.  **Prérequis :**
-    * Avoir un serveur local installé et lancé (Apache).
+### Mise en ligne
 
-2.  **Installation :**
-    * Clonez le dépôt dans le dossier racine de votre serveur (ex: `htdocs` pour XAMPP ou `www` pour WAMP) :
-    ```bash
-    git clone [https://github.com/tanim-veer/refonte-armee-du-salut.git](https://github.com/tanim-veer/refonte-armee-du-salut.git)
-    ```
+Copier `SAE-S3/config/db.local.example.php` en `db.local.php` (ignoré par git), y mettre les identifiants de l'hébergeur, importer le fichier SQL et envoyer les fichiers du dossier `SAE-S3`.
 
-3.  **Lancer le projet :**
-    * Ouvrez votre navigateur.
-    * Accédez à : `http://localhost/refonte-armee-du-salut`
+## Mon rôle
 
----
+- Système de connexion et gestion de session du back-office
+- Tableau de bord
+- CRUD des bénévoles
+- Intégration du front (page « Devenir bénévole » reliée à la base)
+- Sécurisation avant publication : suppression d'un script de réinitialisation de mot de passe, restriction des types de fichiers envoyés, identifiants de base de données hors du dépôt
 
-## ✨ Fonctionnalités Clés
+## L'équipe
 
-* [x] **Structure PHP** : En-têtes et pieds de page dynamiques (includes).
-* [x] **Navigation repensée** : Menu ergonomique et "Call to Action" (Dons) visible.
-* [x] **Responsive** : Adaptation fluide à toutes les résolutions.
-* [x] **Formulaire de contact/Don** : Fonctionnel et relié à la base de données.
-* [x] **Back-office** : Interface d'administration pour la gestion du contenu.
-
----
-
-## 👥 L'Équipe
-
-Ce projet est le fruit d'une collaboration :
-
-* **Tanim Veer** - [@tanim-veer](https://github.com/tanim-veer)
-* **[Osman Sobe]** - [@bvantrikot](https://github.com/bvantrikot)
-* **[Titouan Le Neun]** - [@maxenceamlf](https://github.com/maxenceamlf)
-* **[Maxence Amalfi]** - [@Titouan2005](https://github.com/Titouan2005)
-
----
-
-*Ce projet est réalisé à des fins éducatives et de démonstration.*
+- **Tanim Veer** : [@tanim-veer](https://github.com/tanim-veer)
+- **Osman Sobe** : [@bvantrikot](https://github.com/bvantrikot)
+- **Titouan Le Neun** : [@Titouan2005](https://github.com/Titouan2005)
+- **Maxence Amalfi** : [@maxenceamlf](https://github.com/maxenceamlf)
