@@ -6,7 +6,7 @@
 
 Proposition de refonte du site de l'Armée du Salut : nouvelle interface, pages dynamiques en PHP et back-office d'administration relié à une base MySQL.
 
-**Démo en ligne :** _lien à ajouter_
+**Démo en ligne :** https://tanim-veer.alwaysdata.net (back-office : `/admin/`, identifiants non publiés)
 
 ## Fonctionnalités
 
